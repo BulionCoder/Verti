@@ -1,0 +1,12 @@
+body {
+  font-family: "Open Sans", "Arial", sans-serif;
+  background-color: $color-light-grey;
+}
+@for $i from 3 through 1 {
+  h#{$i} {
+  font-size: 3rem * $i;
+  font-weight: 800;
+  color: $color-deep-grey;
+  }
+}
+
